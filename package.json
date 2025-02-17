@@ -1,0 +1,20 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@vuepress/bundler-vite": "next",
+    "@vuepress/theme-default": "next",
+    "sass": "^1.82.0",
+    "vuepress": "next",
+    "vue": "^3.5.13"
+  }
+}
